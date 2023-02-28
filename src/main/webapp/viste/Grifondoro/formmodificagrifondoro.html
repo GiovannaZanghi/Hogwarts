@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Modifica Grifondoro</title>
+		<style>
+			body
+			{
+				background-color:red;
+				color:white;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>FORM MODIFICA STUDENTE GRIFONDORO</h1>
+		<form action="IndexGrifondoro" method="post">
+		 	<input type="hidden" name="comando" value="modificagrifondoro">
+		 	<input type="text" name="id" value="[id]" readonly><br>
+		 	<input type="text" name="nome" value="[nome]"><br>
+		 	<input type="text" name="cognome" value="[cognome]"><br>
+		 	<input type="text" name="eta" value="[eta]"><br>
+		 	<input type="text" name="quidditch" value="[quidditch]"><br>
+		 	<input type="submit" value="AGGIORNA">
+		 </form>
+		
+	</body>
+</html>

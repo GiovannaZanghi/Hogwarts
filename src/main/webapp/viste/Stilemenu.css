@@ -1,0 +1,37 @@
+#menu{
+	margin: auto;
+	text-align: center;
+}
+ul#menu {
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    margin: 0 auto;
+    width: 61%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+ul#menu li {
+    background-color: #3E54AC;
+    border-bottom: 5px solid #AD7BE9;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: 2px;
+    float: left; /* elementi su singola riga */
+}
+ul#menu li a {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+ul#menu li.active, ul#menu li:hover {
+    background-color: #AD7BE9;
+    border-bottom: 5px solid #3E54AC;
+}
+

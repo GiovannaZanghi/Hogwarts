@@ -1,0 +1,76 @@
+.vb{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    color: red;
+  }
+
+.boh{
+    position:relative;
+    color:rgb(255, 0, 0);;
+    font-family: 'Wizard World', sans-serif;
+                                                
+}
+
+	/*button { cursor: url('cursore.png'), auto; }*/
+
+	body
+			{
+				background-color:rgb(0, 0, 0);
+				color:rgb(255, 255, 0);
+             	cursor:url('cursore2.png'),auto;
+			}
+			
+		.centravert {
+
+display: flex;
+
+align-items: center;
+
+height: 100px; }
+
+
+.title{
+    font-family: 'Harry Potter', sans-serif;
+    text-align: center;
+   
+}
+
+.sx{ width: 30%;
+    float:left;
+    margin-bottom:40px; 
+    padding-left: 100px;
+}
+
+.dx{width: 30%;
+float:right;
+text-align: right;
+margin-bottom:40px;
+padding-right: 100px;
+}
+
+.sx2{ width: 30%;
+    float:left;
+    margin-bottom:40px;
+padding-left: 100px;
+}
+
+.dx2{width: 30%;
+float:right;
+text-align: right;
+margin-bottom:40px;
+padding-right: 100px;
+}
+#banner {
+	
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+#casate
+{
+	position: relative;
+}
+
